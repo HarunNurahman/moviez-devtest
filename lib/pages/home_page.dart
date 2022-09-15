@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:moviez_devtest/pages/search_page.dart';
 import 'package:moviez_devtest/pages/widgets/other-movies_item.dart';
 import 'package:moviez_devtest/pages/widgets/rating_item.dart';
 import 'package:moviez_devtest/pages/widgets/recommended-movies_item.dart';
@@ -31,7 +32,13 @@ class HomePage extends StatelessWidget {
             ],
           ),
           IconButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (_) => SearchPage(),
+                ),
+              );
+            },
             icon: Icon(
               Icons.search,
               size: 32,
@@ -138,6 +145,7 @@ class HomePage extends StatelessWidget {
     }
 
     return Scaffold(
+      backgroundColor: bgColor,
       body: SingleChildScrollView(
         child: Padding(
           padding: EdgeInsets.symmetric(

@@ -5,6 +5,8 @@ Color kYellowColor = Color(0xFFFFAB2E);
 Color kLightGrayColor = Color(0xFFE1E1EA);
 Color kDarkGrayColor = Color(0xFF929292);
 
+Color bgColor = Color(0xFFFBFBFD);
+
 double defaultMargin = 24.0;
 double defaultRadius = 21.0;
 

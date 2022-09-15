@@ -29,6 +29,13 @@ class OtherMovies extends StatelessWidget {
             image: DecorationImage(
               image: AssetImage(imgUrl),
             ),
+            boxShadow: [
+              BoxShadow(
+                color: kPrimaryColor.withOpacity(0.1),
+                blurRadius: 5,
+                offset: const Offset(0, 5.0),
+              )
+            ],
           ),
         ),
         // Movie title
