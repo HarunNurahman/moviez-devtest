@@ -4,6 +4,7 @@ Color kPrimaryColor = Color(0xFF0D0846);
 Color kYellowColor = Color(0xFFFFAB2E);
 Color kLightGrayColor = Color(0xFFE1E1EA);
 Color kDarkGrayColor = Color(0xFF929292);
+Color kWhiteColor = Color(0xFFFFFFFF);
 
 Color bgColor = Color(0xFFFBFBFD);
 
