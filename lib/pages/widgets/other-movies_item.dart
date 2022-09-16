@@ -28,6 +28,7 @@ class OtherMovies extends StatelessWidget {
             borderRadius: BorderRadius.circular(defaultRadius),
             image: DecorationImage(
               image: AssetImage(imgUrl),
+              fit: BoxFit.cover,
             ),
             boxShadow: [
               BoxShadow(
